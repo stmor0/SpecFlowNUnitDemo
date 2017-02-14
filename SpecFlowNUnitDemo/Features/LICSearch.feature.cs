@@ -1,1 +1,3 @@
-﻿#error (46:2): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Examples:'
+﻿#error (13:1): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Background:'
+#error (14:2): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Given I am on the lic.co.nz website as a public user'
+#error (49:2): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Examples:'

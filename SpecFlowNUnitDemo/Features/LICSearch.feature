@@ -10,6 +10,9 @@
 #	When I press add
 #	Then the result should be 120 on the screen
 
+Background: 
+	Given I am on the lic.co.nz website as a public user 
+
 Scenario: Required number of characters before suggestions show 
 	Given I have to entered 2 characters into the search box to get a search result
 	When I have entered the 2nd character
